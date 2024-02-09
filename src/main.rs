@@ -1,8 +1,3 @@
-# hashes
-
-Some common hash function implementations in pure Rust.
-
-```Rust
 mod md5;
 mod sha256;
 
@@ -17,17 +12,3 @@ fn main() {
         "d7a8fbb307d7809469ca9abcb0082e4f8d5651e46d3cdb762d02d0bf37c9e592"
     );
 }
-
-```
-
-## supported hash functions
-
-| Algorithm | Status |
-|-----------|--------|
-| MD5       | ✅     |
-| SHA-256   | ✅     |
-
-
-## references
-
-[Cryptographic hash function - Wikipedia](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
